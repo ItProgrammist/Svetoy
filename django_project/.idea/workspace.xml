@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f44d0825-8d54-49d5-886b-db76f9e5a125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/css/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/css/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/img/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/img/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/preview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/25-dark-horizontal-nav/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/25-dark-horizontal-nav/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/Product_Lg_Type.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/Product_Lg_Type.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/Seller.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/Seller.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/Shop_Svetoy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/Shop_Svetoy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/bootstrap-4.2.1-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/jquery-3.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/shop-word.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/shop-word.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/slider_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/slider_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svet1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svet1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svet3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svet3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/svetoy6.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/svetoy6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/vk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/vk.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Svetoy1/Права.txt" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Svetoy1/Права.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2706">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_project/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="e#638#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_project/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Svetoy1/svetoy1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Svetoy1/svetoy3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories/views.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shops/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stati</find>
+      <find>stat</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/products/models.py" />
+        <option value="$PROJECT_DIR$/categories/models.py" />
+        <option value="$PROJECT_DIR$/shops/models.py" />
+        <option value="$PROJECT_DIR$/products/admin.py" />
+        <option value="$PROJECT_DIR$/categories/admin.py" />
+        <option value="$PROJECT_DIR$/shops/admin.py" />
+        <option value="$PROJECT_DIR$/categories/views.py" />
+        <option value="$PROJECT_DIR$/django_project/settings.py" />
+        <option value="$PROJECT_DIR$/templates/Svetoy1/svetoy1.html" />
+        <option value="$PROJECT_DIR$/django_project/urls.py" />
+        <option value="$PROJECT_DIR$/django_project/views.py" />
+        <option value="$PROJECT_DIR$/templates/Svetoy1/svetoy3.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/django_project.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="207" />
+    <option name="y" value="265" />
+    <option name="width" value="1303" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Svetoy1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Svetoy_django project\Svetoy\django_project\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Svetoy_django project\Svetoy\django_project\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="django_project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="django_project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f44d0825-8d54-49d5-886b-db76f9e5a125" name="Default Changelist" comment="" />
+      <created>1558264660053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558264660053</updated>
+      <workItem from="1558264662851" duration="1982000" />
+      <workItem from="1558863528284" duration="852000" />
+      <workItem from="1558864421568" duration="1815000" />
+      <workItem from="1558866267511" duration="1935000" />
+      <workItem from="1558868232793" duration="1788000" />
+      <workItem from="1558870049427" duration="1318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9690000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/products/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shops/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/conf/urls/static.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#638#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Svetoy1/svetoy.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shops/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_project/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Svetoy1/svetoy1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Svetoy1/svetoy3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

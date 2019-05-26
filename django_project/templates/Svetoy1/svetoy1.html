@@ -1,0 +1,450 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="ru-RU">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ru, en"> <!--<![endif]-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" href="25-dark-horizontal-nav/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Svetoy</title>
+
+  <link rel="shortcut icon" href="svet1.jpg" type="jpg">
+	<style type="text/css">
+	body {
+    background: url('https://i.imgur.com/sH7JvFx.jpg') repeat-y,
+                url('https://i.imgur.com/sH7JvFx.jpg') 100% 0 repeat-y;
+                background-repeat: no-repeat; 
+    margin: -100px 100px;
+   }
+
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.about {
+  margin: 70px auto 40px;
+  padding: 8px;
+  width: 260px;
+  font: 10px/18px 'Lucida Grande', Arial, sans-serif;
+  color: #666;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.about a {
+  color: #333;
+  text-decoration: none;
+  border-radius: 2px;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+.about a:hover {
+  text-decoration: none;
+  background: #fafafa;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.about-links {
+  height: 30px;
+}
+.about-links > a {
+  float: left;
+  width: 50%;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.about-author {
+  margin-top: 5px;
+}
+.about-author > a {
+  padding: 1px 3px;
+  margin: 0 -1px;
+}
+
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #303335;
+}
+
+.container {
+  margin: 70px auto;
+  width: 975px;
+  text-align: center;
+  margin-left: 970px;
+  margin-top: 30px;
+}
+
+.nav {
+  height: 48px;
+  display: inline-block;
+}
+.nav > li, .nav:active > .active {
+  float: left;
+  position: relative;
+  margin: 0 0 4px;
+  height: 44px;
+  color: #ccc;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid #232428;
+  border-bottom-color: #1f2326;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px #262a2e, 0 3px #1f2326, 0 4px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px #262a2e, 0 3px #1f2326, 0 4px 3px rgba(0, 0, 0, 0.2);
+}
+.nav > li:hover {
+  color: #b0d157;
+  text-shadow: 0 1px black, 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.nav > li.active,
+.nav > .active:active,
+.nav > li:active {
+  z-index: 2;
+  margin: 4px 0 0;
+  height: 43px;
+  color: #aaa;
+  text-shadow: 0 1px black;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-color: #212425;
+  border-width: 1px 0;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), inset 0 -1px 1px rgba(0, 0, 0, 0.15), 1px 0 rgba(0, 0, 0, 0.05), -1px 0 rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.05), inset 0 -1px 1px rgba(0, 0, 0, 0.15), 1px 0 rgba(0, 0, 0, 0.05), -1px 0 rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.05);
+}
+.nav > li:active {
+  z-index: 3;
+}
+.nav > li:first-child {
+  border-left-width: 1px !important;
+  border-left-color: #212425;
+  border-radius: 5px 0 0 5px;
+}
+.nav > li:last-child {
+  border-right-width: 1px !important;
+  border-right-color: #212425;
+  border-radius: 0 5px 5px 0;
+}
+.nav > li + li, .nav:active > .active + li, .nav:active > li + .active {
+  border-left-width: 0;
+}
+.nav > .active + li,
+.nav > .active:active + li,
+.nav > li:active + li,
+.nav > li:active + .active {
+  border-left-width: 1px;
+}
+.nav > li > a {
+  display: block;
+  line-height: 44px;
+  padding: 0 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+}
+.nav .nav-icon {
+  padding: 13 15px;
+}
+
+[class*="icon-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-top;
+  background-image: url("../img/icons.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+}
+
+.icon-home {
+  background-position: 0 0;
+}
+.h1 h1{
+    font-size: 110px;
+    color: yellow;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: -10px;
+  } 
+  .img1 img{
+    margin-top: 
+  }
+  .h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-family: Centro Sans pro;
+   }
+   .h3{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 700px;
+   }
+   .h3 .h6{
+    font-size: 50px;
+    margin-top: 45px;
+    margin-left: 140px;
+    color: #ff0000;
+   }
+   ul{
+    color: white;
+   }
+   hr{
+    color: white;
+   }
+     }
+  .block {
+  padding: 0;
+  font-size: 14px;
+  margin: 0px 200px 10px 0px;
+  }
+  .block .element1{
+  border: solid 1px #C7CADD;
+  margin: 0px 3px 3px 0px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  height: 200px;
+  width: 150px;
+  }
+  .block .element1:hover{
+  border: solid 1px #000;
+  margin: 0px 3px 3px 0px;
+  padding: 0;
+  float: left;
+  height: 200px;
+  width: 150px;
+  }
+  .block .element2{
+  border: solid 1px #C7CADD;
+  margin-top: 0;
+    margin-left: 49px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  height: 200px;
+  width: 150px;
+  }
+  .block .element2:hover{
+  border: solid 1px #000;
+  margin-top: 0;
+    margin-left: 49px;
+  padding: 0;
+  float: left;
+  height: 200px;
+  width: 150px;
+  }
+   .block .element3{
+  border: solid 1px #C7CADD;
+  margin-top: 0;
+    margin-left: 49px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  height: 200px;
+  width: 150px;
+  }
+   .block .element3:hover{
+  border: solid 1px #000;
+  margin-top: 0;
+    margin-left: 49px;
+  padding: 0;
+  float: left;
+  height: 200px;
+  width: 150px;
+  }
+  .block .img{
+  text-decoration: none;
+  }
+  
+  .block .img img{
+  margin: 5px 0px 0px 5px;
+  padding: 0;
+  width: 140px;
+  height: 130px;
+    } 
+  .block .text{
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  }
+  .p1{
+    font-family: Trebuchet MS;
+  }
+  .p2{
+    font-size: 18px;
+  }
+  .img1 img{
+    width: 1380px;
+      height: 320px;
+  }
+  .img2 img {
+    background: ("svetoy4.jpg");
+    margin-left: -98px;
+    margin-top: -55px;
+    width: 1362px;
+    }
+    .p1 .b3 b{
+      font-family: bips;
+    }
+    .m1 a{
+      color: #ffe93e;
+      text-decoration: none;
+      font-size: 45px;
+        font-family: Trebuchet MS;
+        margin-top: -50px;
+        margin-left: -82px;
+  </style>
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <script type="text/javascript">console.log('site:' + ' ' + 'Active')
+  console.log('Console errors:' + ' ' + 'Found errors:' + ' ' + '1;' + ' ' + 'type: code error(img)')       </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery-3.3.1.js">  
+</script>
+   <section class="container">
+    <nav>
+      <ul class="nav">
+        <li><a href="svetoy1.html" class="nav-icon" class="active" title="Главная (Home)"><span class="icon-home"><img src="25-dark-horizontal-nav/img/icons.png">Home</span></a></li>
+        <li><a href="svetoy.html" title="About">О кампании</a></li>
+        <li><a href="svetoy3.html" title="Products">Продукция</a></li>
+        <li><a href="svetoy4.html" title="Portfolio">Портфолио</a></li>
+        <li><a href="svetoy5.html" title="Stock">Акции</a></li>
+        <li><a href="svetoy6.html" title="Contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </section>
+  <div class="h1">
+  <h1>Svetoy.ru</h1>
+</div>
+<div class="h3">
+<big><p>Светодиодные ленты | Уникальная подсветка</p></big>
+<big><p class="h6"><b></b></p></big>
+<div class="block">
+  <div class="element1">
+    <a href="/products/">
+      <div class="img">
+        <img src="https://i.imgur.com/KGHibkT.jpg">
+      </div>
+    </a>
+        <div class="text">Продукция</div>
+        </div>
+  <div class="element2">
+    <a href="svetoy.html">
+      <div class="img">
+        <img src="https://i.imgur.com/7cnOC1U.png">
+      </div>
+    </a>
+    <div class="text">О нашем магазине</div>
+    </div>
+  <div class="element3">
+    <a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D1%8C%D0%B1%D1%80%D1%83%D1%81" target="___blanc">
+      <div class="img">
+        <img src="https://i.imgur.com/ZWGfP8K.jpg">
+      </div>
+    </a>
+          <div class="text">Наши сотрудники</div>
+          </div>
+</div>
+    <div class="left">
+        {% for category in categories %}
+            <a>{{ category.name }}</a><br>
+        {% endfor %}
+    </div>
+        <div class="center">
+        {% for shop in shops %}
+            <a>{{ shop.name }}</a><br>
+        {% endfor %}
+        </div>
+            <div class="center">
+        {% for shop in shops %}
+            <a>{{ shop.name }}</a><br>
+        {% endfor %}
+            </div>
+</body>
+</html>
